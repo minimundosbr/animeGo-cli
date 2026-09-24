@@ -1,3 +1,5 @@
 type Season struct {
-	AnimeSeasons []AnimeSeasons `json:"anime_seasons"`
+	Number       int       `json:"number_seasons"`
+	EpisodeCount int       `json:"episode_count"`
+	Episodes     []Episode `json:"episodes"`
 }

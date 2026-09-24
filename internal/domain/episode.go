@@ -1,5 +1,6 @@
 type Episode struct {
-	EpisodeID       []string `json:"episode_id"`
-	DurationEpisode int      `json:"duration_episode"`
-	EpisodeTitle    []string `json:"episode_title"`
+	ID       int    `json:"episode_id"`
+	Duration int    `json:"duration_episode"`
+	Title    string `json:"title"`
+	Number   int    `json:"number"`
 }
