@@ -1,3 +1,5 @@
+package domain
+
 type Episode struct {
 	ID       int    `json:"episode_id"`
 	Duration int    `json:"duration_episode"`
