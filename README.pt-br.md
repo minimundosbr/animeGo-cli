@@ -19,6 +19,8 @@ Uma CLI em terminal (TUI), escrita em Go, para buscar animes, assistir episódio
 
 Este projeto está sendo construído publicamente, um passo deliberado de cada vez, seguindo Clean Architecture e princípios SOLID como projeto de aprendizado e portfólio.
 
+Os requisitos completos, garantias, restrições e critérios de avaliação estão escritos como um desafio técnico em [DESAFIO.md](DESAFIO.md).
+
 - [x] Entidades de domínio (`internal/domain`) — `Anime`, `Season`, `Episode`, `Progress`
 - [ ] Casos de uso e interfaces/portas (`internal/usecase`) — em andamento
 - [ ] Adapter do AnimeFire
