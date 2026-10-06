@@ -1,3 +1,5 @@
+package domain
+
 type Anime struct {
 	ID                int      `json:"anime_id"`
 	MainTitle         string   `json:"main_title"`

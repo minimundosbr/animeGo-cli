@@ -1,0 +1,10 @@
+# binarios gerados pelo build
+/bin/
+*.exe
+*.test
+
+# relatorios de cobertura
+*.out
+
+# configuracao local (pode conter clientId)
+/config.json

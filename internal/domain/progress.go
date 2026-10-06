@@ -1,3 +1,5 @@
+package domain
+
 type Progress struct {
 	AnimeID     int  `json:"anime_id"`
 	EpisodeID   int  `json:"episode_id"`
