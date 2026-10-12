@@ -1,3 +1,3 @@
-package animego
+package main
 
 func main() {}
